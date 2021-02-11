@@ -39,12 +39,13 @@ nav {
   padding: 10px;
 }
 
+/* Changed url to ../assets... instead since the path was incorrect previously and the icon would not load */
 #shop-icon {
-  content: url("/assets/shop-icon.png");
+  content: url("../assets/shop-icon.png");
 }
 
 #cart-icon {
-  content: url("/assets/cart-icon.png");
+  content: url("../assets/cart-icon.png");
 }
 
 /* Custom Element CSS starts here */
